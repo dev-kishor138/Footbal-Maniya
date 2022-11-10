@@ -111,8 +111,31 @@ body
     margin-bottom: 20px;
     padding: 0 40px;
 }
-.player-section .players .player-box .box .text .p span
+.player-section .players .player-box .box .text .p p
 {
-    font-size: 10px;
-
+    font-size: 1.2em;
+    font-weight: 300;
+    color: #bbb;
+}
+.player-section .players .player-box .box .text .p .fa-sharp
+{
+    height: 10px;
+    width: 10px;
+    overflow: hidden;
+}
+.player-section .players .player-box .box .text .select-button
+{
+    width: 80%;
+    margin: auto;
+}
+.player-section .players .player-box .box .text .select-button button
+{
+    width: 100%;
+    padding: 15px 0;
+    background: blue;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 400;
 }
