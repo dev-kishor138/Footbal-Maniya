@@ -11,6 +11,9 @@
 <body>
 
     <section class="banner-section">
+        <div class="banner-img">
+            <img src="img/banner-3.jpg" alt="">
+        </div>
         <div class="text-box">
             <h1>Select Your Best Team</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti molestiae possimus laborum atque ab, eaque, ad dolor magni soluta voluptatibus alias nam veniam enim labore, totam nemo nulla illo. Architecto, repellat fugit? Sequi consequatur tempore suscipit consequuntur, aliquam corporis eveniet placeat maxime inventore ullam quasi. Atque harum nisi at nemo?</p>
@@ -152,9 +155,17 @@
         <div class="player-list">
             <div class="selected">
                 <h2>Selected - V</h2>
-                <ul>
-                    
-                </ul>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>SN</th>
+                            <th>Player Name</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody">
+                        
+                    </tbody>
+                  </table>
             </div>
             <div class="budget">
                 <h2>Budget</h2>
@@ -168,22 +179,22 @@
                 <div class="calculate-total">
                     <div class="player-expanse">
                         <p>player expanse</p>
-                        <p>$<span>00</span></p>
+                        <p>$<span id="player-expanse">00</span></p>
                     </div>
                     <div class="manager">
                         <label for="">Manager</label>
-                        <input type="number">
+                        <input id="manager" type="number">
                     </div>
                     <div class="coach">
                         <label for="">Coach</label>
-                        <input type="number">
+                        <input id="coach" type="number">
                     </div>
                     <div class="calculate-total-button mb">
-                        <button>Calculate Total</button>
+                        <button id="calculate-total-button">Calculate Total</button>
                     </div>
                     <div class="total">
                         <p>Total</p>
-                        <p>$<span>00</span></p>
+                        <p>$<span id="total">00</span></p>
                     </div>
                 </div>
             </div>
@@ -191,8 +202,10 @@
     </section>
 
     <footer>
-        <p>Ehaoteshamul Islam Kishor</p>
-        <p>154699</p>
+        <div class="p">
+            <p>Ehaoteshamul Islam Kishor</p>
+            <p>154699</p>
+        </div>
     </footer>
 
     
