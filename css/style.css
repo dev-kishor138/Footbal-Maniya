@@ -445,3 +445,29 @@ footer .p p
         padding: 5px;
     }
 }
+
+
+@media (max-width: 414px)
+{
+    .banner-section .text-box
+    {
+        top: 1%;
+    }
+}
+
+@media (max-width: 280px)
+{
+    .banner-section .text-box
+    {
+        top: 1%;
+    }
+    .banner-section .text-box h1
+    {
+        margin-bottom: 5px;
+        font-size: 1em;
+    }
+    .banner-section .text-box p
+    {
+        font-size: 0.6em;
+    }
+}
