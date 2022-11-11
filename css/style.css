@@ -35,7 +35,7 @@ input[type="number"]::-webkit-inner-spin-button {
 .banner-section .text-box
 {
     position: absolute;
-    top: 25%;
+    top: 30%;
     left: 25%;
     width: 55%;
 }
@@ -156,13 +156,13 @@ input[type="number"]::-webkit-inner-spin-button {
 .player-list .selected table
 {
     width: 100%;
-    text-align: center;
+    text-align: left;
 }
 .player-list .selected table th,
 .player-list .selected table td
 {
     border-bottom: 1px solid #777;
-    padding: 15px 0;
+    padding: 15px 0 15px 15px;
     color: #bbb;
 }
 .player-list .selected h2,
